@@ -1,2 +1,15 @@
 # FOE
-A collection of embedded design projects carried out in the course, the Frustration of Electronics (FOE), during the Spring of my sophomore year.
+A collection of embedded design projects carried out in the course, the Frustration of Electronics (FOE), a supervised reading and research course I took during the Spring of my sophomore year. These projects have been added to github after completion of the course to showcase my work. 
+
+## Adjustable Power Supply
+
+This project was the first of three embedded design projects I helped lead in ES91r, the Frustration of Electronics. I worked with two others to design a power supply device, originally intended for use by students in Harvard’s introductory electrical engineering course to power their circuits without the need for a benchtop power supply. I lead my team through the brunt of each major design phase, keeping us on track despite simultaneously pipelining other design projects, short turnarounds between project deadlines, and scheduling difficulties among my teammates. After multiple design iterations, we achieved a fully functional, battery powered, adjustable power supply with overvoltage and overcurrent protection, a dynamic range of 1.5V-10V, and the capacity to source or sink current upwards of 500mA. I am currently iterating upon this preliminary design in order to improve upon the device’s absolute maximum ratings and ergonomics. 
+
+## Instrumentation Device
+
+In the second of three embedded circuit design projects for the course, ES91r, I worked with three others to design a high-precision instrumentation device to interface with a load-cell. Precision was a critical consideration throughout the process; consequently, important design considerations were made to ensure signal integrity: utilizing differential signals and an instrumentation amplifier to combat noise, designing an anti-aliasing filter with appropriate pass and stopband frequencies, ensuring a sufficiently high analog-to-digital conversion rate to allow capture of high-speed events, and making layout design decisions that reduced the effect of digital transients and EMI on the analog signal during its travel to the digital realm. We were able to design hardware to allow us to process our signal digitally and save it to a microSD card; however, we were unable to implement the necessary code for this attribute due to time constraints at the end of the semester. In particular, I left this project with a strong understanding of analog-to-digital conversion, and high-precision analog circuit design. 
+
+
+## Wireless Charging Station
+
+My team and I designed a Wireless Charging Station meant to interface directly with a small remote-control car. While we were unable to produce a physical prototype, iterating completely through an intense design process - creating our own project specifications, conducting research on wireless power transfer, designing the final circuit and PCB, etc. - on a tight time schedule, not only increased my knowledge of power systems, but also proved to be an excellent project experience, pushing me to make intelligent design decisions under pressure. 
